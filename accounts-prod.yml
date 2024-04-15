@@ -1,4 +1,4 @@
 sandeep:
-  sharma: "prod"
+  sharma: "production"
 build:
-  version: "prod"
+  version: "production"
