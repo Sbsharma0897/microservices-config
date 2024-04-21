@@ -1,3 +1,5 @@
+server:
+  port: 8090
 sandeep:
   sharma: "default"
 build:

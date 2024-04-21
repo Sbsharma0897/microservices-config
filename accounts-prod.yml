@@ -6,3 +6,6 @@ build:
 info:
   app:
     name: "a]dummy"
+
+server:
+  port: 8090    
