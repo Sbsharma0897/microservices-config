@@ -17,8 +17,6 @@ management:
       exposure:
         include: "*"
 
-  config:
-    import: configserver:http://localhost:8071
 eureka:
   instance:
     preferIpAddress: true
@@ -26,4 +24,4 @@ eureka:
     fetchRegistry: true
     registerWithEureka: true
     serviceUrl:
-      defaultZone: http://eureka-server/eureka-server/
+      defaultZone: http://eureka-server:8761/eureka-server/

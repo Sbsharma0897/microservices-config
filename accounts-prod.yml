@@ -2,3 +2,7 @@ sandeep:
   sharma: "production212"
 build:
   version: "production212"
+
+info:
+  app:
+    name: "a]dummy"
