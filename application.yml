@@ -4,11 +4,11 @@ spring:
     username: ${commons.mysql.username}
     password: ${commons.mysql.password}
     driver-class-name: com.mysql.cj.jdbc.Driver # For MySQL 8.x use "com.mysql.cj.jdbc.Driver"
-    rabbitmq:
-      host: "localhost"
-      port: 5672
-      username: "guest"
-      password: "guest"
+#    rabbitmq:
+#      host: "localhost"
+#      port: 5672
+#      username: "guest"
+#      password: "guest"
   jpa:
     database-platform: org.hibernate.dialect.MySQLDialect
 management:
@@ -24,4 +24,4 @@ eureka:
     fetchRegistry: true
     registerWithEureka: true
     serviceUrl:
-      defaultZone: http://eureka-server:8761/eureka-server/
+      defaultZone: http://eureka-server:8761/eureka/
