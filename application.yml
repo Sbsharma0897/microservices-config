@@ -17,6 +17,8 @@ management:
       exposure:
         include: "*"
 
+  config:
+    import: configserver:http://config-server:8071
 eureka:
   instance:
     preferIpAddress: true
